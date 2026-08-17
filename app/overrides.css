@@ -109,6 +109,8 @@
 
 .project-grid figure { margin: 0; }
 .project-grid figure img { display: block; width: 100%; }
+.award-gallery { display: grid; gap: 14px; }
+.award-gallery img:last-child { width: 84%; margin-left: auto; }
 .award-kicker { color: var(--accent); font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 .project-story > h2 { margin: 18px 0 2px; font-size: clamp(54px, 7vw, 94px); line-height: .95; letter-spacing: -.06em; }
 .project-story > h3 { margin: 12px 0 28px; color: var(--muted); font-size: 18px; font-weight: 500; }
@@ -128,5 +130,6 @@
   .modern .paper-visual { height: 210px; }
   .featured-project { padding: 80px 7vw; }
   .project-grid { grid-template-columns: 1fr; }
+  .award-gallery img:last-child { width: 100%; margin-left: 0; }
   .project-features { grid-template-columns: 1fr; }
 }
