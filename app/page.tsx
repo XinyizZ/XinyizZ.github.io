@@ -51,7 +51,7 @@ const styles: { id: Style; label: string; note: string }[] = [
 ];
 
 export default function Home() {
-  const [style, setStyle] = useState<Style>("scholar");
+  const [style, setStyle] = useState<Style>("modern");
   return (
     <main className={`site ${style}`}>
       <div className="style-switcher" role="group" aria-label="Choose a design version">
