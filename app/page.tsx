@@ -100,10 +100,7 @@ export default function Home() {
           <time>March 15, 2026</time>
         </div>
         <div className="project-grid">
-          <figure className="award-gallery">
-            <img src="/aclguard-geneva-gold.png" alt="ACLGuard system exhibited at the International Exhibition of Inventions Geneva" />
-            <img src="/aclguard-geneva-medal.png" alt="ACLGuard gold medal and diploma from the International Exhibition of Inventions Geneva" />
-          </figure>
+          <figure className="project-photo"><img src="/aclguard-geneva-gold.png" alt="ACLGuard system exhibited at the International Exhibition of Inventions Geneva" /></figure>
           <div className="project-story">
             <p className="award-kicker">Gold Medal · 51st International Exhibition of Inventions Geneva</p>
             <h2>ACLGuard</h2>
