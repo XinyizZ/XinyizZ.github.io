@@ -10,14 +10,6 @@
   margin-top: 38px;
 }
 
-.nav .email span {
-  display: inline-block;
-  margin-right: 4px;
-  color: var(--accent);
-  font-size: 13px;
-  transform: translateY(-1px);
-}
-
 .modern .paper-visual {
   height: 150px;
   padding: 0;
