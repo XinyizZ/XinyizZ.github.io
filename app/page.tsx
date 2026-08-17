@@ -3,7 +3,7 @@ const papers = [
     year: "2026",
     venue: "IMWUT · UbiComp 2026",
     title: "RTSense: A Fabric-based Wearable System for Return-To-Sport Assessment of Anterior Cruciate Ligament Injuries",
-    authors: <> <strong>Xinyi Zhang*</strong>, Baichen Yang*, Jiaxi Zhang, Xin He, Zuru Liang, Qijia Shao, Michael Tim-Yun Ong, Patrick Shu-hang Yung, Qian Zhang</>,
+    authors: <> <strong>Xinyi Zhang</strong>, Baichen Yang, Jiaxi Zhang, Xin He, Zuru Liang, Qijia Shao, Michael Tim-Yun Ong, Patrick Shu-hang Yung, Qian Zhang</>,
     href: "https://doi.org/10.1145/3789686",
     role: "First author",
     tone: "coral",
