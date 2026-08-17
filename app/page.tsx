@@ -13,6 +13,7 @@ const papers = [
     href: "https://doi.org/10.1145/3789686",
     role: "First author",
     tone: "coral",
+    image: "/rtsense-overview.png",
   },
   {
     year: "2024",
@@ -23,6 +24,7 @@ const papers = [
     code: "https://github.com/KneeGuard/KneeGuard",
     role: "Co-first author",
     tone: "blue",
+    image: "/kneeguard-overview.png",
   },
   {
     year: "2025",
@@ -32,6 +34,7 @@ const papers = [
     href: "https://doi.org/10.1145/3770692",
     role: "Co-author",
     tone: "gold",
+    image: "/aclguard-overview.png",
   },
   {
     year: "2026",
@@ -41,6 +44,7 @@ const papers = [
     href: "https://arxiv.org/abs/2607.27125",
     role: "Co-author",
     tone: "green",
+    image: "/tactiplay-overview.png",
   },
 ];
 
@@ -90,7 +94,7 @@ export default function Home() {
         <p className="section-label">About</p>
         <div>
           <h2>Technology that moves<br />with the human body.</h2>
-          <p>I am a PhD student at the Hong Kong University of Science and Technology, advised in Qian&apos;s Group. My research explores how mobile sensing, wearable systems, and machine intelligence can move health assessment out of the lab and into everyday life.</p>
+          <p>I am a PhD student at the Hong Kong University of Science and Technology, supervised by Prof. Qian Zhang. My research explores how mobile sensing and machine intelligence can move health assessment out of the clinic and into everyday life.</p>
           <p>Before joining HKUST, I received my B.Eng. in Automation from the College of Electrical Engineering, Zhejiang University in 2021. I am especially interested in smart rehabilitation and AI-assisted sports—building systems that are rigorous enough for clinical insight and effortless enough for real-world use.</p>
           <div className="tags"><span>Mobile sensing</span><span>Wearables</span><span>Smart health</span><span>AI + Sports</span></div>
         </div>
@@ -101,7 +105,7 @@ export default function Home() {
         <div className="paper-list">
           {papers.map((paper, i) => (
             <article className={`paper ${paper.tone}`} key={paper.title}>
-              <div className="paper-visual"><span>0{i + 1}</span><div className="signal" /><small>{paper.role}</small></div>
+              <div className="paper-visual"><img src={paper.image} alt={`${paper.title} overview`} /><span>0{i + 1}</span><small>{paper.role}</small></div>
               <div className="paper-copy">
                 <div className="meta"><span>{paper.venue}</span><span>{paper.year}</span></div>
                 <h3>{paper.title}</h3>
