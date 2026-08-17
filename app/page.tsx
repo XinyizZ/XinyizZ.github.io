@@ -1,9 +1,3 @@
-"use client";
-
-import { useState } from "react";
-
-type Style = "scholar" | "modern" | "editorial";
-
 const papers = [
   {
     year: "2026",
@@ -48,25 +42,9 @@ const papers = [
   },
 ];
 
-const styles: { id: Style; label: string; note: string }[] = [
-  { id: "scholar", label: "01 Minimal Scholar", note: "quiet · precise" },
-  { id: "modern", label: "02 Modern Research", note: "visual · dynamic" },
-  { id: "editorial", label: "03 Editorial", note: "bold · personal" },
-];
-
 export default function Home() {
-  const [style, setStyle] = useState<Style>("modern");
   return (
-    <main className={`site ${style}`}>
-      <div className="style-switcher" role="group" aria-label="Choose a design version">
-        <span className="switcher-title">Design study</span>
-        {styles.map((item) => (
-          <button key={item.id} className={style === item.id ? "active" : ""} onClick={() => setStyle(item.id)}>
-            <span>{item.label}</span><small>{item.note}</small>
-          </button>
-        ))}
-      </div>
-
+    <main className="site modern">
       <nav className="nav">
         <a className="mark" href="#top">XZ<span>.</span></a>
         <div><a href="#about">About</a><a href="#research">Research</a><a href="#project">Project</a><a href="#journey">Journey</a></div>
