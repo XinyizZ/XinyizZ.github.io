@@ -81,13 +81,8 @@
   }
 
   .project-grid {
-    grid-template-columns: minmax(240px, 315px) 1fr;
+    grid-template-columns: minmax(280px, 34%) 1fr;
     gap: 48px;
-  }
-
-  .project-photo {
-    width: 315px;
-    max-width: 100%;
   }
 }
 
