@@ -13,10 +13,10 @@
 .nav > div {
   gap: 4px;
   padding: 5px;
-  border: 1px solid #dde2ed;
+  border: 0;
   border-radius: 0;
-  background: linear-gradient(90deg, #f4f6fa99, #e9eef899, #f4f6fa99);
-  backdrop-filter: blur(10px);
+  background: transparent;
+  backdrop-filter: none;
 }
 
 .nav > div a {
@@ -103,8 +103,8 @@ footer a {
 .nav > div a:focus-visible {
   z-index: 1;
   color: var(--ink);
-  background: linear-gradient(135deg, #ffffffa6 0%, #dbe6ffb8 52%, #aecaef66 100%);
-  box-shadow: 0 10px 24px #456aa82b, inset 0 0 0 1px #ffffffb8;
+  background: linear-gradient(to top, #aecaef8a 0%, #dbe6ff66 48%, #ffffff08 100%);
+  box-shadow: 0 10px 22px #456aa820;
   outline: none;
   transform: translateY(-4px) scale(1.035);
 }
