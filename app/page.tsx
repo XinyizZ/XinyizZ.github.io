@@ -48,7 +48,7 @@ export default function Home() {
       <nav className="nav">
         <a className="mark" href="#top">XZ<span>.</span></a>
         <div><a href="#about">About</a><a href="#research">Research</a><a href="#project">Project</a><a href="#journey">Journey</a></div>
-        <a className="email" href="mailto:xhzhangfz@connect.ust.hk">Email ↗</a>
+        <a className="email" href="mailto:xhzhangfz@connect.ust.hk"><span aria-hidden="true">✉</span> Email ↗</a>
       </nav>
 
       <section className="hero" id="top">
