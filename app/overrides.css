@@ -4,6 +4,12 @@
   filter: saturate(.88);
 }
 
+.modern .portrait-wrap figcaption {
+  position: relative;
+  z-index: 1;
+  margin-top: 38px;
+}
+
 .modern .paper-visual {
   height: 150px;
   padding: 0;
