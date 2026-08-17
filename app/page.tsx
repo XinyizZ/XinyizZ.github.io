@@ -10,6 +10,16 @@ const papers = [
     image: "/rtsense-overview.png",
   },
   {
+    year: "2025",
+    venue: "IMWUT · UbiComp 2026",
+    title: "ACLGuard: Physics-Aware Knee Loading Monitoring System for Anterior Cruciate Ligament Injury Prevention Training",
+    authors: <>Baichen Yang, <strong>Xinyi Zhang</strong>, Xin He, Chi Xu, Wentao Xie, Zuru Liang, Patrick Shu-hang Yung, Qian Zhang</>,
+    href: "https://doi.org/10.1145/3770692",
+    role: "Co-author",
+    tone: "gold",
+    image: "/aclguard-overview.png",
+  },
+  {
     year: "2024",
     venue: "IMWUT · UbiComp 2025",
     title: "KneeGuard: A Calibration-free Wearable Monitoring System for Knee Osteoarthritis Gait Re-training via Effortless Wearing",
@@ -19,16 +29,6 @@ const papers = [
     role: "Co-first author",
     tone: "blue",
     image: "/kneeguard-overview.png",
-  },
-  {
-    year: "2025",
-    venue: "IMWUT · UbiComp 2026",
-    title: "ACLGuard: Physics-Aware Knee Loading Monitoring System for Anterior Cruciate Ligament Injury Prevention Training",
-    authors: <>Baichen Yang, <strong>Xinyi Zhang</strong>, Xin He, Chi Xu, Wentao Xie, Zuru Liang, Patrick Shu-hang Yung, Qian Zhang</>,
-    href: "https://doi.org/10.1145/3770692",
-    role: "Co-author",
-    tone: "gold",
-    image: "/aclguard-overview.png",
   },
   {
     year: "2026",
