@@ -127,7 +127,7 @@ export default function Home() {
             <p className="award-kicker">Gold Medal · 51st International Exhibition of Inventions Geneva</p>
             <h2>ACLGuard</h2>
             <h3>AI-powered ACL injury prevention system</h3>
-            <p>Led by Prof. Qian Zhang, ACLGuard is an AI-driven system that turns laboratory-grade biomechanical assessment into portable, real-time, and personalized protection for athletes. It addresses a critical gap in preventive training: the lack of objective monitoring and actionable feedback outside specialized clinics.</p>
+            <p>ACLGuard is an AI-driven system that turns laboratory-grade biomechanical assessment into portable, real-time, and personalized protection for athletes. It addresses a critical gap in preventive training: the lack of objective monitoring and actionable feedback outside specialized clinics.</p>
             <div className="project-features">
               <article><span>01</span><h4>Physics-Aware AI</h4><p>Encodes inverse dynamics into neural networks to estimate knee loading and joint angles with an NRMSE as low as 11%.</p></article>
               <article><span>02</span><h4>In-time Bio-feedback</h4><p>Provides immediate visual alerts and corrective guidance for high-risk movements during training.</p></article>
