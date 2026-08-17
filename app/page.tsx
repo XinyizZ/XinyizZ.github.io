@@ -123,7 +123,7 @@ export default function Home() {
         <p className="section-label">Journey</p>
         <div className="timeline">
           <article><time>2021 — Present</time><h3>PhD Student</h3><p>Hong Kong University of Science and Technology<br />Qian&apos;s Group</p></article>
-          <article><time>2017 — 2021</time><h3>B.Eng. in Automation</h3><p>College of Electrical Engineering<br />Zhejiang University</p></article>
+          <article><time>2017 — 2021</time><h3>B.Eng. in Automation</h3><p>Zhejiang University<br />College of Electrical Engineering</p></article>
         </div>
       </section>
 
