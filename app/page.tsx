@@ -46,7 +46,7 @@ export default function Home() {
   return (
     <main className="site modern">
       <nav className="nav">
-        <a className="mark" href="#top">XZ<span>.</span></a>
+        <a className="mark" href="#top">AZ<span>.</span></a>
         <div><a href="#about">About</a><a href="#research">Research</a><a href="#project">Project</a><a href="#journey">Journey</a></div>
         <a className="email" href="mailto:xhzhangfz@connect.ust.hk">Email ↗</a>
       </nav>

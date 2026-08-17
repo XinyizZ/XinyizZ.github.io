@@ -35,6 +35,42 @@
 .modern .paper-visual > span { top: 8px; left: 8px; }
 .modern .paper-visual > small { bottom: 8px; left: 8px; }
 
+@media (min-width: 901px) {
+  .about > div > p {
+    max-width: 820px;
+    font-size: 19px;
+    line-height: 1.78;
+  }
+
+  .modern .paper {
+    grid-template-columns: minmax(280px, 34%) 1fr;
+    gap: 48px;
+    padding: 40px 0;
+  }
+
+  .modern .paper-visual {
+    height: 210px;
+  }
+
+  .modern .paper h3 {
+    max-width: 760px;
+    margin: 16px 0 14px;
+    font-size: clamp(22px, 2.15vw, 31px);
+    line-height: 1.24;
+    letter-spacing: -.025em;
+  }
+
+  .modern .paper .authors {
+    max-width: 800px;
+    font-size: 12.5px;
+    line-height: 1.65;
+  }
+
+  .modern .paper-links {
+    margin-top: 18px;
+  }
+}
+
 .featured-project {
   padding: 110px 9vw;
   border-top: 1px solid var(--line);
