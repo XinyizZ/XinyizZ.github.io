@@ -116,10 +116,10 @@ footer a {
 .nav > div a:focus-visible {
   z-index: 1;
   color: var(--ink);
-  background: linear-gradient(to top, #aecaef8a 0%, #dbe6ff66 48%, #ffffff08 100%);
-  box-shadow: 0 10px 22px #456aa820;
+  background: radial-gradient(ellipse at center, #aecaef8a 0%, #dbe6ff66 48%, #ffffff08 100%);
+  box-shadow: none;
   outline: none;
-  transform: translateY(-4px) scale(1.035);
+  transform: none;
 }
 
 .modern .paper-visual {
@@ -192,7 +192,7 @@ footer a {
   }
 
   .project-photo {
-    width: 90%;
+    width: 100%;
   }
 
   .project-story {
@@ -250,15 +250,70 @@ footer a {
 .project-story > h2 { margin: 18px 0 2px; font-size: clamp(54px, 7vw, 94px); line-height: .95; letter-spacing: -.06em; }
 .project-story > h3 { margin: 12px 0 28px; color: var(--muted); font-size: 18px; font-weight: 500; }
 .project-story > p { max-width: 760px; color: #3f485c; font-size: 15px; line-height: 1.72; }
-.project-features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 34px; }
-.project-features article { padding-top: 18px; border-top: 2px solid var(--accent); }
+.project-features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 28px; }
+.project-features article { padding-top: 9px; border-top: 2px solid var(--accent); }
 .project-features span { color: var(--accent); font: 10px monospace; }
-.project-features h4 { margin: 15px 0 9px; font-size: 14px; }
+.project-features h4 { margin: 7px 0 7px; font-size: 14px; }
 .project-features p { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.55; }
 .project-story .collaboration { margin-top: 30px; padding-left: 14px; border-left: 2px solid var(--accent); font-size: 11px; }
 
 .about > div > p:first-child { margin-top: 0; }
 .modern footer { min-height: 180px; }
+
+.interests {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 5vw;
+  padding: 56px 9vw 60px;
+  overflow: hidden;
+  border-top: 1px solid var(--line);
+  background: var(--paper);
+  text-align: left;
+}
+
+.interests-heading h2 {
+  max-width: none;
+  margin: 12px 0 0;
+  font-size: clamp(18px, 1.5vw, 22px);
+  line-height: 1.12;
+  letter-spacing: -.035em;
+}
+
+.interest-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: baseline;
+  gap: 10px 17px;
+  width: 100%;
+  max-width: 820px;
+  min-height: 110px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.interest-cloud span {
+  display: inline-block;
+  color: rgb(89 91 94 / 76%);
+  font-weight: 650;
+  letter-spacing: -.035em;
+  line-height: .95;
+  cursor: default;
+  transition: transform .22s ease, opacity .22s ease;
+}
+
+.interest-cloud span:nth-child(3n) { transform: translateY(9px); }
+.interest-cloud span:nth-child(4n) { transform: translateY(-7px); }
+.interest-cloud span:hover { transform: translateY(-6px) scale(1.045); }
+.interest-sm { font-size: clamp(13px, 1.15vw, 16px); opacity: .63; }
+.interest-md { font-size: clamp(16px, 1.65vw, 23px); opacity: .78; }
+.interest-lg { font-size: clamp(20px, 2.2vw, 30px); }
+.interest-xl { font-size: clamp(25px, 2.8vw, 38px); }
+.interest-blue { color: rgb(105 125 145 / 82%) !important; }
+.interest-coral { color: rgb(163 125 120 / 78%) !important; }
+.interest-green { color: rgb(112 137 125 / 80%) !important; }
+.interest-gold { color: rgb(160 142 112 / 76%) !important; }
 
 @media (max-width: 900px) {
   .modern .portrait-wrap img { box-shadow: 14px 16px 0 #dbe5ff; }
@@ -268,4 +323,29 @@ footer a {
   .project-photo { height: auto; }
   .project-photo img { height: auto; }
   .project-features { grid-template-columns: 1fr; }
+  .interests {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 45px 7vw 48px;
+  }
+  .interests-heading h2 { max-width: none; }
+  .interest-cloud { min-height: 0; gap: 9px 14px; }
+}
+
+@media (min-width: 901px) {
+  .project-grid {
+    grid-template-columns: minmax(0, 3.5fr) minmax(0, 6.5fr);
+  }
+
+  .project-photo {
+    width: 100%;
+  }
+}
+
+.project-heading time {
+  font-size: 13px;
+}
+
+.project-story > h2 {
+  font-size: clamp(27px, 3.5vw, 47px);
 }

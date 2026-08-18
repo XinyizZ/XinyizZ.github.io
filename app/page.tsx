@@ -65,7 +65,6 @@ export default function Home() {
           <img src="/xinyi-zhang.png" alt="Xinyi Zhang by the waterfront" />
           <figcaption>Researching at the intersection of sensing, health, and human performance.</figcaption>
         </figure>
-        <div className="hero-index">01 / 03</div>
       </section>
 
       <section className="about" id="about">
@@ -107,11 +106,11 @@ export default function Home() {
             <h3>AI-powered ACL injury prevention system</h3>
             <p>ACLGuard is an AI-driven system that turns laboratory-grade biomechanical assessment into portable, real-time, and personalized protection for athletes. It addresses a critical gap in preventive training: the lack of objective monitoring and actionable feedback outside specialized clinics.</p>
             <div className="project-features">
-              <article><span>01</span><h4>Physics-Aware AI</h4><p>Encodes inverse dynamics into neural networks to estimate knee loading and joint angles with an NRMSE as low as 11%.</p></article>
-              <article><span>02</span><h4>In-time Bio-feedback</h4><p>Provides immediate visual alerts and corrective guidance for high-risk movements during training.</p></article>
-              <article><span>03</span><h4>Personalized AI Coach</h4><p>Uses an individualized LLM to translate risk patterns into targeted landing, agility, and strength programs.</p></article>
+              <article><h4>Physics-Aware AI</h4><p>Encodes inverse dynamics into neural networks to estimate knee loading and joint angles.</p></article>
+              <article><h4>In-time Bio-feedback</h4><p>Provides immediate visual alerts and corrective guidance for high-risk movements during training.</p></article>
+              <article><h4>Personalized AI Coach</h4><p>Uses an individualized LLM to translate risk patterns into targeted landing, agility, and strength programs.</p></article>
             </div>
-            <p className="collaboration">Developed with medical collaborators including CUHK Medicine, Shanghai Sixth People&apos;s Hospital, and The First Affiliated Hospital of Sun Yat-sen University.</p>
+            <p className="collaboration">Developed with medical collaborators from CUHK Sports Medicine.</p>
           </div>
         </div>
       </section>
@@ -122,6 +121,11 @@ export default function Home() {
           <article><time>2021 — Present</time><h3>PhD Student</h3><p>Hong Kong University of Science and Technology<br />Qian&apos;s Group</p></article>
           <article><time>2017 — 2021</time><h3>B.Eng. in Automation</h3><p>Zhejiang University<br />College of Electrical Engineering</p></article>
         </div>
+      </section>
+
+      <section className="interests" aria-labelledby="interests-title">
+        <div className="interests-heading"><p className="section-label">Beyond research</p><h2 id="interests-title">Things that keep me curious.</h2></div>
+        <div className="interest-cloud" aria-label="Personal interests"><span className="interest-xl interest-blue">Badminton</span><span className="interest-lg interest-coral">Bouldering</span><span className="interest-md interest-green">Cycling</span><span className="interest-sm">Crafts</span><span className="interest-md interest-blue">Languages</span><span className="interest-sm interest-gold">Cheese</span><span className="interest-lg">Music</span><span className="interest-md interest-coral">K-pop</span><span className="interest-lg interest-blue">Taylor Swift</span><span className="interest-md interest-green">SEVENTEEN</span></div>
       </section>
 
       <footer><div><a href="mailto:xhzhangfz@connect.ust.hk">xhzhangfz@connect.ust.hk ↗</a></div><span>© 2026 Xinyi Zhang</span></footer>
